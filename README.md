@@ -72,8 +72,6 @@ The experiment tests whether the model’s interpretation changes when:
 
 ---
 
-## 📁 Directory Structure
-
 Task_08_Bias_Detection/
 │
 ├── Dataset/
@@ -101,7 +99,6 @@ Task_08_Bias_Detection/
 ├── docs/
 │ └── hypotheses.md
 └── README.md
-
 ---
 
 ## 🧾 Deliverables
