@@ -1,0 +1,5 @@
+prompt_id,condition,model,run,mentioned_players,mentioned_players_count,total_ground_truth_numeric_hits,any_player_supported_by_numbers
+confirmation_v1,confirmation,gemini,1,"Player A, Player B, Player C, Player H, Player AR, Player BS, Player CL, Player HL, Player ARF, Player BST, Player CLW, Player HLF",12,19,True
+demographic_v1,demographic,gemini,1,"Player A, Player B, Player C, Player D, Player CJ",5,24,True
+negative_v1,negative,gemini,1,"Player A, Player C, Player AR, Player CL, Player ARF, Player CLW",6,13,True
+neutral_v1,neutral,gemini,1,"Player A, Player B, Player C, Player D, Player H, Player AR, Player BS, Player CL, Player HL, Player ARF, Player BST, Player CLW, Player HLF",13,17,True
