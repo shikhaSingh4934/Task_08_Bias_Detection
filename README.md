@@ -102,9 +102,6 @@ Task_08_Bias_Detection/
 │ └── hypotheses.md
 └── README.md
 
-yaml
-Copy code
-
 ---
 
 ## 🧾 Deliverables
