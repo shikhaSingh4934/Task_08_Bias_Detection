@@ -72,33 +72,37 @@ The experiment tests whether the model’s interpretation changes when:
 
 ---
 
+## 📂 Directory Structure
+
+```plaintext
 Task_08_Bias_Detection/
 │
 ├── Dataset/
-│ └── fifa_eda_stats.csv
+│   └── fifa_eda_stats.csv
 ├── data/
-│ └── fifa_anon.csv
+│   └── fifa_anon.csv
 ├── analysis/
-│ ├── ground_truth_full.csv
-│ ├── ground_truth_metrics.csv
-│ └── claims_validation.csv
+│   ├── ground_truth_full.csv
+│   ├── ground_truth_metrics.csv
+│   └── claims_validation.csv
 ├── prompts/
-│ └── prompt_variations.csv
+│   └── prompt_variations.csv
 ├── results/
-│ ├── raw/
-│ │ ├── gpt4_neutral_run1.txt
-│ │ ├── claude_positive_run1.txt
-│ │ └── gemini_negative_run1.txt
-│ └── combined_llm_responses.csv
+│   ├── raw/
+│   │   ├── gpt4_neutral_run1.txt
+│   │   ├── claude_positive_run1.txt
+│   │   └── gemini_negative_run1.txt
+│   └── combined_llm_responses.csv
 ├── scripts/
-│ ├── sanitize_players.py
-│ ├── ground_truth.py
-│ ├── experiment_design.py
-│ ├── run_experiment.py
-│ └── validate_claims.py
+│   ├── sanitize_players.py
+│   ├── ground_truth.py
+│   ├── experiment_design.py
+│   ├── run_experiment.py
+│   └── validate_claims.py
 ├── docs/
-│ └── hypotheses.md
+│   └── hypotheses.md
 └── README.md
+
 ---
 
 ## 🧾 Deliverables
